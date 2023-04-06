@@ -1,0 +1,108 @@
+body {
+    background-color: #FFDEB4;
+    min-width: 750px;
+}
+#root {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.multiline-code {
+    margin: 2% auto;
+    border-radius: 2em;
+    width: 90%;
+    background-color: #363636;
+    color: white;
+    letter-spacing: 0.04em;
+    padding: 4%;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+#heirarchy {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#code-SS{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.BigCtn-ctn {
+    width: 50%;
+    min-width: 300px;
+    height: 23vh;
+}
+
+#common_state {
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: #FFB4B4;
+    padding: 4% 2%;
+    border-radius: 3em;
+    width: 35%;
+    height: auto;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+
+@media screen and (max-width:844px) {
+    #root {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        height: 100vh;
+    }
+
+    #heirarchy {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    .BigCtn-ctn {
+        width: 30%;
+        min-width: 200px;
+        height: 23vh;
+    }
+    #common_state {
+        box-sizing: border-box;
+        border: 1px solid black;
+        background-color: #FFB4B4;
+        padding: 4% 2%;
+        border-radius: 3em;
+        width: 100%;
+        height: auto;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+    #code-SS{
+        display: flex;
+        flex-direction: column;
+    }
+    .multiline-code {
+        margin: 2% auto;
+        border-radius: 2em;
+        width: 90%;
+        background-color: #363636;
+        color: white;
+        letter-spacing: 0.04em;
+        padding: 4%;
+        line-height: 2em;
+        font-weight: 500;
+    }
+}
